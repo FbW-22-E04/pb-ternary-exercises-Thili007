@@ -1,9 +1,9 @@
 // Exercise - 01
 
 var isDog = true;
-isDog = true ? "Pat, pat, good dog" : "Find me a dog to pat";
-
-console.log(isDog);
+isDog == true
+  ? console.log("Pat, pat, good dog")
+  : console.log("Find me a dog to pat!");
 
 // Exercise - 02
 
