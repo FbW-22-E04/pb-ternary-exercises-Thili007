@@ -1,18 +1,19 @@
 // Exercise - 01
 
-var isDog = true ? "pat, pat" : "find me a dog to pat";
+var isDog = true;
+isDog = true ? "Pat, pat, good dog" : "Find me a dog to pat";
 
 console.log(isDog);
 
 // Exercise - 02
 
 var speedLimit = 50;
-
-if (speedLimit < 40) {
-  console.log("you're going too fast!");
-} else {
-  console.log("You're driving below the speed limit, Oma");
-}
+var yourSpeed = 51;
+console.log(
+  speedLimit < yourSpeed
+    ? "you're going too fast!"
+    : "You're driving below the speed limit, Oma"
+);
 
 // Exercise - 03
 
